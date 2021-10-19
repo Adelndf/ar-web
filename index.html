@@ -15,10 +15,14 @@
                 <i class="fas fa-mobile"></i>
                 <h1>فون</h1>
             </div>
-            <ul class="nav__left">
-                <li class='nav__leftItem'><a href="" class='nav__itemLink'>الرئيسية</a></li>
-                <li class='nav__leftItem'><a href="" class='nav__itemLink'>ميزاتنا</a></li>
-                <li class='nav__leftItem'><a href="" class='nav__itemLink'>أحدث الجوالات</a></li>
+            <div class="nav__leftMobile">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav__left .active">
+                <li class='nav__leftItem'><a href="#" class='nav__itemLink'>الرئيسية</a></li>
+                <li class='nav__leftItem'><a href="#features" class='nav__itemLink'>ميزاتنا</a></li>
+                <li class='nav__leftItem'><a href="#phones" class='nav__itemLink'>أحدث الجوالات</a></li>
             </ul>
         </nav>
     </div>
@@ -43,7 +47,7 @@
                 <img src="images/smartphone.png" alt="Image">
             </div>
         </section>
-        <section class='features'>
+        <section class='features' id='features'>
             <h2 class='features__text'>
                 لماذا نحن أفضل خيار؟
             </h2>
@@ -71,7 +75,7 @@
             </div>
         </section>
     </div>
-    <section class="phones" id="newest">
+    <section class="phones" id="phones">
         <div class="phones_sec">
           <h4>الهواتف المضافة حديثًا</h4>
           <div class="phones">
@@ -104,6 +108,18 @@
             <a href="#">تصفّح جميع الهواتف</a>
           </button>
         </div>
-      </section>  
+    </section>
+    <footer class='footer'>
+        <div class="footer__container">
+            <p>جميع الحقوق محفوظة لشركة فون 2021</p>
+            <div class="footer__icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>
